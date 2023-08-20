@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: left;
+  list-style-type: none;
+  border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+body {
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ここより下 */
+body {
+  width: 100%;
+  height:100vh;
+  background-image: url(../img/haikei2.png);
+  background-position: center center; 
+  background-repeat: no-repeat;  
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+.Sa {
+  width: 1000px;
+  display: flex;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 2%;
+}
+
+.btn {
+  background-color: yellow;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 170px;
+  height: 38px;
+  font-size: 23px;
+  position: fixed;
+  right: 40px;
+  top: 30px;
+}
+
+.btn:active {
+  background-color: lightgray;
+}
+
+.sb {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  margin-top: 11%;
+}
+
+.simei,
+.number {
+  width: 300px;
+  height: 35px;
+}
+
+.number {
+  margin-left: 20px;
+}
+
+.area {
+  display: flex;
+  justify-content: center;
+}
+
+.area2 {
+  margin-left: 20px;
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 35px;
+}
+
+.button-group button {
+  background-color: rgb(105, 192, 222);
+  color: black;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 80px;
+  border: none;
+  cursor: pointer;
+  margin-top: 100px;
+  margin-left: 30%;
+}
+
+.button-group button:active {
+  background-color: lightgray;
+}
+
+.button-group2 {
+  /* ボタンを右上に移動 */
+  position: relative;
+  top: -40px;
+  right: -54%;
+}
+
+.button-group2 button {
+  /* ボタンのスタイル */
+  background-color: red;
+  color: black;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 80px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-group2 button:active {
+  background-color: lightgray;
+}
